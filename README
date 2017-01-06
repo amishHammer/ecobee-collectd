@@ -1,0 +1,9 @@
+1. Run register_ecobee.rb to setup access to your account by the app.
+
+2. Copy config.yaml.sample to config.yaml
+
+3. Update config.yaml to point to your collectd server
+
+4. Run ecobee.rb 
+
+5. Profit
