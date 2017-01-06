@@ -25,7 +25,6 @@ SCHEDULER.every '30s' do
     save_lambda = lambda do |config|
       config
     end
-    puts "helo"
 
     token = Ecobee::Token.new(
       app_key: 'OConrCoYN4Cx6n5Dh0T7k8VghUg4yJOW',
@@ -69,7 +68,6 @@ SCHEDULER.every '30s' do
             :value => "#{thermostat.unitize(s[:temp])} - #{s[:occupancy] == "true" ? 'Occupied' : 'Unoccupied'}"
         }
     end
-    puts "end"
 end
 
 SCHEDULER.join
