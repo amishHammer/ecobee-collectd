@@ -1,0 +1,17 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    collectd (0.0.15)
+    ecobee (0.3.3)
+    rufus-scheduler (3.2.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  collectd
+  ecobee
+  rufus-scheduler
+
+BUNDLED WITH
+   1.12.1
